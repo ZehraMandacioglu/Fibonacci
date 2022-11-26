@@ -1,0 +1,17 @@
+
+public class Finder {
+	public static int Fibonacci(int y ) {
+		if (y==1) 
+			return 1;
+		else if (y>1)
+			return (Fibonacci(y-1)+ Fibonacci(y-2));	
+		else 
+			return 0; 
+	}
+	public static void main (String[] args) {
+		int result ;
+		result = Fibonacci(5);
+		System.out.println(result);
+		
+	}
+}
